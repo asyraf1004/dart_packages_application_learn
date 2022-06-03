@@ -1,0 +1,19 @@
+name: dart_package_application
+description: A sample command-line application.
+version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.16.2 <3.0.0'
+
+publish_to: none
+dependencies:
+  dart_packages_library_learn:
+    git: 
+      url: git@github.com:asyraf1004/dart_packages_library_learn.git
+      ref: 1.5.0
+      
+
+dev_dependencies:
+  lints: ^1.0.0
+  test: ^1.16.0
